@@ -389,7 +389,7 @@ const Content = () => {
             <h2 className="text-gray-900 text-lg title-font font-semibold">Senior Full Stack Engineer</h2>
           </div>
           <div className="flex-grow">
-            <p className="leading-relaxed font-semibold text-gray-900 text-xs">
+            <div className="leading-relaxed font-semibold text-gray-900 text-xs">
               <ul className='list-disc'>
                 <li className='flex gap-2'>
                   <span className='grid place-content-center'>
@@ -407,7 +407,7 @@ const Content = () => {
                     </svg>
                   </span>$60k-$85k, 0.5-1.5% equity share options</li>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
       </div>

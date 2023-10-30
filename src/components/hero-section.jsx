@@ -1,4 +1,22 @@
 import React from 'react'
+// import { gsap } from 'gsap';
+// import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+
+  // const boxRef = useRef(null);
+
+  // useEffect(() => {
+  //   // const box = boxRef.current;
+
+  //   gsap.from(box, {
+  //     x: -100, // Starting position
+  //     opacity: 0, // Starting opacity
+  //     duration: 1, // Animation duration
+  //     delay: 0.5, // Delay before animation starts
+  //   });
+  // }, []);
+
+
 
 const HeroSection
  = () => {
@@ -7,8 +25,8 @@ const HeroSection
     <section className="text-gray-600 body-font ">
   <div className="container mx-auto flex px-10 py-24 md:flex-row flex-col items-center rounded-3xl bg-violet-100">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <span className='font-normal text-black'>Ahead app</span>
-      <span className="title-font sm:text-7xl text-3xl mb-4 font-bold text-black">
+      <span className='hero-section-text font-semibold text-black'>Ahead app</span>
+      <span className="hero-section-text title-font sm:text-7xl text-3xl mb-4 font-bold text-black">
         Master your life by mastering emotions
         {/* <br className="hidden lg:inline-block"/>readymade gluten */}
       </span>
