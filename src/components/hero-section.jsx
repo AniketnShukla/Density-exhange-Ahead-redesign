@@ -34,7 +34,7 @@ const HeroSection
         <button className="text-white bg-black border-0 py-2 px-3 focus:outline-none hover:bg-grey-800 rounded-2xl text-lg flex gap-2 justify-center">
             <img className='h-10' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/600px-Apple-logo.png?20200509031052" alt="apple-logo" />
             <div className='flex flex-col'>
-              <span className='text-xs'>Download on</span>
+              <span className='text-xs'>Download on . . .</span>
               <span className='text-xl leading-[2rem]'>App Store</span>
             </div>
         </button>
